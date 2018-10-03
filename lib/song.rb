@@ -1,6 +1,6 @@
 require 'pry'
 class Song
-@@attr_accessor: name, artist and genre
+attr_accessor: name, artist and genre
   @@count = 0
   @@genres = []
   @@artists = []
@@ -50,4 +50,3 @@ def self.genre_count
      artist_count
    end
 end
- 
